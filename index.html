@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tony's Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">Tony's Portfolio</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="visitor-counter">
+                <span>Today: <span id="todayVisitors">0</span></span>
+                <span>Total: <span id="totalVisitors">0</span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-content">
+                <div class="about-text">
+                    <p>My name is Chi-Sheng Huang (Tony), and I am passionate about Data Analytics and International Affairs. 
+                        Throughout my academic and professional journey, I have been dedicated to integrating technology with 
+                        business, leveraging data-driven insights to drive impactful solutions.</p>
+                    <p>With a strong foundation in technology and communication, I invite you to explore my journey at the 
+                        intersection of business, data, and global affairs.</p>
+                </div>
+
+                <div class="about-image">
+                    <img src="北科實習 1 修1拷貝.jpg" alt="Tony Huang's Professional Photo">
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chi-sheng-huang-2765a71b8/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://medium.com/@tonyhuang1217" target="_blank" class="social-link"><i class="fab fa-medium"></i></a>
+                <a href="https://www.instagram.com/tony911217/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@tonyguitar2765" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section">
+        <div class="section-header">
+            <h2>Education</h2>
+        </div>
+        <div class="education-container">
+            <div class="education-item">
+                <h3>Bachelor of Information and Finance Management</h3>
+                <p class="school">National Taipei University of Technology, Taiwan, Taipei City</p>
+                <p class="year">Expected graduation: 2026 June</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-header">
+            <h2>Skills</h2>
+        </div>
+        <div class="skills-container">
+            <div class="skill-category">
+                <div class="technical-skills">
+                    <div class="skill-column">
+                        <h4>Data Analysis</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">SQL</span>
+                            <span class="skill-tag">Rapidminer</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Knime</span>
+                        </div>
+                    </div>
+                    <div class="skill-divider"></div>
+                    <div class="skill-column">
+                        <h4>Web Design</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag"><a href="#experience-html-css-js">HTML</a></span>
+                            <span class="skill-tag"><a href="#experience-html-css-js">CSS</a></span>
+                            <span class="skill-tag"><a href="#experience-html-css-js">JavaScript</a></span>
+                        </div>
+                    </div>
+                    <div class="skill-divider"></div>
+                    <div class="skill-column">
+                        <h4>Microsoft</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Word</span>
+                            <span class="skill-tag">Excel</span>
+                            <span class="skill-tag">PowerPoint</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="section">
+        <h2>Experience</h2>
+        <div class="experience-container">
+            <div class="experience-item" id="experience-html-css-js">
+                <div class="experience-content">
+                    <div class="experience-text">
+                        <h3>APEC Sustainable Social Entrepreneurship Training (ASEST)</h3>
+                        <p class="company">Co-founder <span class="location"><i class="fas fa-map-marker-alt"></i> Seoul, South Korea & Bangkok, Thailand</span></p>
+                        <p class="period">2024 June - Present</p>
+                        <p class="description">
+                            • Worked with entrepreneurs from 5 countries in Korea to analyze competitors and build financial models.<br>
+                            • Developed a cross-border student platform using HTML, CSS, and JavaScript.<br>
+                            • Piloted in 3 countries, impacting 80+ students, with strong interest from schools in Taiwan and Korea.<br>
+                            • Pitched to 80+ APEC educators in Thailand and led outreach to school leaders across Asia.<br>
+                            • Secured curriculum adoption by Thammasat University-affiliated high school starting October 2025.<br>
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">Entrepreneurship</span>
+                            <span class="tag"><a href="#experience-html-css-js">JavaScript</a></span>
+                            <span class="tag"><a href="#experience-html-css-js">HTML</a></span>
+                            <span class="tag"><a href="#experience-html-css-js">CSS</a></span>
+                            <span class="tag">Cross-cultural Communication</span>
+                        </div>
+                    </div>
+                    <div class="experience-photos">
+                        <div class="photo-container">
+                            <div class="photo-wrapper">
+                                <img src="ASSETpitch.JPEG" alt="APEC Pitch Presentation" class="experience-photo active">
+                                <p class="photo-description active">Pitching to APEC Educators in Thailand</p>
+                            </div>
+                            <div class="photo-wrapper">
+                                <img src="ASSETgroup.jpeg" alt="Group Photo" class="experience-photo">
+                                <p class="photo-description">Team with Entrepreneurs from 5 Countries</p>
+                            </div>
+                            <div class="photo-wrapper">
+                                <img src="ASSETsolo.jpeg" alt="Individual Photo" class="experience-photo">
+                                <p class="photo-description">Leading the Cross-border Student Platform Development</p>
+                            </div>
+                            <button class="photo-nav prev"><i class="fas fa-chevron-left"></i></button>
+                            <button class="photo-nav next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item" id="experience-leadership">
+                <div class="experience-content">
+                    <div class="experience-text">
+                        <h3>International Youth Ambassador</h3>
+                        <p class="company">Ministry of Foreign Affairs, Taiwan</p>
+                        <p class="period">2022 July - 2022 September (3 months)</p>
+                        <p class="description">
+                            • Stood out from over 1,000 applicants and was successfully selected as one of the final 20 delegates.<br>
+                            • Engaged in discussions on environmental and sustainable development issues with Palauan President Surangel Whipps Jr., and participated in environmental protection dialogues with Ebiil Society, the largest NGO in Palau.<br>
+                            • Edited a highlight video of the Youth Ambassador Program and published an article on Medium, reaching over 1,000 views.<br>
+                            • Hosted a night market performance event with over 800 attendees, which made local news headlines and led to an interview with Eco Paradise, Palau's largest radio station.<br>
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">Leadership</span>
+                            <span class="tag">Public Speaking</span>
+                            <span class="tag">Event Planning</span>
+                        </div>
+                    </div>
+                    <div class="experience-photos">
+                        <div class="photo-container">
+                            <div class="photo-wrapper">
+                                <img src="president.JPG" alt="Meeting with President" class="experience-photo active">
+                                <p class="photo-description active">Meeting with Palauan President Surangel Whipps Jr.</p>
+                            </div>
+                            <div class="photo-wrapper">
+                                <img src="radio.JPG" alt="Radio Interview" class="experience-photo">
+                                <p class="photo-description">Interview with Eco Paradise Radio Station</p>
+                            </div>
+                            <div class="photo-wrapper">
+                                <img src="night market.JPG" alt="Night Market Event" class="experience-photo">
+                                <p class="photo-description">Night Market Performance Event with 800+ Attendees</p>
+                            </div>
+                            <button class="photo-nav prev"><i class="fas fa-chevron-left"></i></button>
+                            <button class="photo-nav next"><i class="fas fa-chevron-right"></i></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="experience-item" id="experience-project-management">
+                <div class="experience-content">
+                    <div class="experience-text">
+                        <h3>Project Manager of English Producers</h3>
+                        <p class="company">National Taipei University of Technology</p>
+                        <p class="period">2022 - Present</p>
+                        <p class="description">
+                            • Organized lunchtime English learning sessions for over 300 NTUT students, held 5 classes per week over 10 weeks each semester.<br>
+                            • Collaborated with Fulbright exchange students from the U.S. to design diverse and practical course content focused on improving listening, speaking, reading, and writing skills.<br>
+                            • Now the most popular English program on campus, consistently fully booked within the first week of registration, with a 96% satisfaction rate.<br>
+                        </p>
+                        <div class="experience-tags">
+                            <span class="tag">Leadership</span>
+                            <span class="tag">Project Management</span>
+                            <span class="tag">Cross-Cultural Communication</span>
+                        </div>
+                    </div>
+                    <div class="experience-video">
+                        <a href="https://www.youtube.com/watch?v=X1x9k7Jh5ik" target="_blank" class="video-link">
+                            <div class="video-thumbnail">
+                                <img src="englishproducer.jpg" alt="English Producers Video">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                    <span>Watch on YouTube</span>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <h2>Contact</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>tonyhuang1217@gmail.com</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+886 0900 312 497</p>
+                </div>
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Taipei, Taiwan</p>
+                </div>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chi-sheng-huang-2765a71b8/" target="_blank" class="social-link"><i class="fab fa-linkedin"></i></a>
+                <a href="https://medium.com/@tonyhuang1217" target="_blank" class="social-link"><i class="fab fa-medium"></i></a>
+                <a href="https://www.instagram.com/tony911217/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/@tonyguitar2765" target="_blank" class="social-link"><i class="fab fa-youtube"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html> 
